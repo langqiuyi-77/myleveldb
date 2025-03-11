@@ -28,8 +28,12 @@
 // 少删除的数据结构
 //
 // (2) Random 随机数生成
+// 
+// (3) iterator
 
 
+// SkipList是模板类，模板类实现不能是.cc分开的
+// 另外SkipList是内部数据结构，不需要放在include对外暴露
 namespace leveldb {
 
 // 在实现的时候可以传递一个自定义的比较器而不是使用key默认的比较逻辑，灵活性

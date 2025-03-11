@@ -1,0 +1,13 @@
+{
+  // close code suggestion
+"editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+"editor.suggest.showWords": false,
+"editor.parameterHints.enabled": false,
+"editor.inlineSuggest.enabled": false,
+"clangd.path": "",
+"C_Cpp.intelliSenseEngine": "Disabled",
+}
